@@ -8,6 +8,7 @@ public class User {
     private Long id;
 
     private String username;
+
     private Long organizationalUnitId;
 
     public Long getId() {
