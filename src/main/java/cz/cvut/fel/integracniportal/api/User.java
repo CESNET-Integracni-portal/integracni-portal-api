@@ -8,6 +8,7 @@ public class User {
     private Long id;
 
     private String username;
+    private Long organizationalUnitId;
 
     public Long getId() {
         return id;
@@ -23,5 +24,13 @@ public class User {
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public void setOrganizationalUnitId(Long organizationalUnitId) {
+        this.organizationalUnitId = organizationalUnitId;
+    }
+
+    public Long getOrganizationalUnitId() {
+        return organizationalUnitId;
     }
 }
